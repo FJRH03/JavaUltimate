@@ -28,7 +28,8 @@ public class Ejercicio1 {
         System.out.println("Los numeros ingresados fueron: " +num1+ " y " + num2);
         System.out.println("Ahora seleccione una de estas opciones: ");
         System.out.println("a) Sumar: \n" + "b) Restar: \n" + "c) Multiplicar \n" + "d) Dividir \n");
-        opcion = teclado.nextLine();
+        System.out.println("");
+        opcion = teclado.next();
 
         // Investigue que .toLowerCase() nos permite que no ocurra error al escribir mayusculas y minusculas
         switch (opcion.toLowerCase()){
