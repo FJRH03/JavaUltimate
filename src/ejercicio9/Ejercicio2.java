@@ -1,4 +1,4 @@
-package aass;
+package ejercicio9;
 
 /*
     2. Un programa que sume y muestre dicha suma de los numeros pares del 1 al 100
@@ -7,11 +7,11 @@ package aass;
 public class Ejercicio2 {
 
     public static void main(String[] args) {
-        int suma = 0; // variable para guardar la suma de los numeros impares
+        int suma = 0; // variable para guardar la suma de los numeros pares
         int i = 1; // contador para iterar
         do{
-            if(i%2!=0) { // validamos que sena impares
-                suma +=i; // guardamos el numero impar en esta variable
+            if(i%2 == 0) { // validamos que sea pares
+                suma +=i; // guardamos el numero par en esta variable
             }
             i++; // incrementamos el iterador
         }while( i<=100); // condicion

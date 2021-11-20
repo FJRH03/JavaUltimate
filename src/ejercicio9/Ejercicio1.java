@@ -1,4 +1,4 @@
-package aass;
+package ejercicio9;
 
 /**
  * 1. Un programa que muestre los números del 1 al 100
@@ -9,7 +9,7 @@ public class Ejercicio1 {
     public static void main(String[] args) {
         int i = 1;  // contador
         while(i<=100){
-            System.out.println("Numero: " + i);
+            System.out.println("Valor de i es: " + i);
             i++;
         }
     }

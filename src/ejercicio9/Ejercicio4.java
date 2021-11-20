@@ -1,4 +1,4 @@
-package aass;
+package ejercicio9;
 
 import java.util.Scanner;
 
@@ -11,18 +11,19 @@ import java.util.Scanner;
 public class Ejercicio4 {
 
     public static void main(String[] args) {
-        int aux = 0; // necesitamos esto para llevar el contador
+        int i = 0; // necesitamos esto para llevar el contador
         int suma = 0; // variable para guardar la suma de los numeros pares
         int n = 0; // variable que necesitamos recibir para poder validar si es par o no
         Scanner teclado = new Scanner(System.in);
 
-        while(aux < 10){
-            aux++;
+        while(i < 10)
+        {
             System.out.println("Ingrese un número entero: ");
             n = teclado.nextInt();
             if(n % 2 == 0){
                 suma += n;
             }
+            i++;
         }
         System.out.println("La suma total de los números pares es de: " + suma);
     }

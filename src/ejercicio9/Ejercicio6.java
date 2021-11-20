@@ -1,4 +1,4 @@
-package aass;
+package ejercicio9;
 
 import java.util.Scanner;
 
@@ -13,24 +13,24 @@ public class Ejercicio6 {
     public static void main(String[] args) {
         // creamos las variable
         Scanner teclado = new Scanner(System.in);
-        int numpar = 0, numImpar = 0, n = 0, i =0;
-        final int contador = 10;
+        int contadorPares = 0, contadorImpares = 0, n = 0, i = 0;
+        final int CONTADOR = 10;
 
         do {
             System.out.println("Ingrese un número entero por favor: ");
             n = teclado.nextInt();
             if(n % 2 == 0 || n == 0){ // si el número es par o cero agregamos a la suma
-                numpar += n;
+                contadorPares += 1;
                 i++;
             }else {
-                numImpar += n; // si el numero es impar agregamos a la suma de impares
+                contadorImpares += 1; // si el numero es impar agregamos a la suma de impares
                 i++;
             }
-        } while (i < contador); // Mientras y sea menor que 10 - recordando que contador comienza en 0 al 9 (10 veces)
+        } while (i < CONTADOR); // Mientras y sea menor que 10 - recordando que contador comienza en 0 al 9 (10 veces)
 
         // Imprimimos en pantalla ambas sumatorias
-        System.out.println("La suma total de los numeros pares es de: " + numpar);
-        System.out.println("La suma total de los numeros impares es de: " + numImpar);
+        System.out.println("La suma total de los numeros pares es de: " + contadorPares);
+        System.out.println("La suma total de los numeros impares es de: " + contadorImpares);
         System.out.println("i: " + i);
     }
 }
