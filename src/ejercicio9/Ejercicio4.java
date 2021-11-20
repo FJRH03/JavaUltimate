@@ -11,10 +11,10 @@ import java.util.Scanner;
 public class Ejercicio4 {
 
     public static void main(String[] args) {
+        Scanner teclado = new Scanner(System.in);
         int i = 0; // necesitamos esto para llevar el contador
         int suma = 0; // variable para guardar la suma de los numeros pares
         int n = 0; // variable que necesitamos recibir para poder validar si es par o no
-        Scanner teclado = new Scanner(System.in);
 
         while(i < 10)
         {

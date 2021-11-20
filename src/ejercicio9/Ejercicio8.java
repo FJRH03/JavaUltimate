@@ -10,9 +10,8 @@ import java.util.Scanner;
  */
 public class Ejercicio8 {
 
-    static Scanner teclado = new Scanner(System.in);
     public static void main(String[] args) {
-
+        Scanner teclado = new Scanner(System.in);
         int factorial = 1;
         System.out.println("Favor ingrese el número a calcular el factorial: ");
         int numero = teclado.nextInt();

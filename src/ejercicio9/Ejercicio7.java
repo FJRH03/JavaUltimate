@@ -11,9 +11,8 @@ import java.util.Scanner;
  */
 public class Ejercicio7 {
 
-    static Scanner teclado = new Scanner(System.in);
-
     public static void main(String[] args) {
+        Scanner teclado = new Scanner(System.in);
         int i = 0, c1 = 0, c2 = 0, c3 = 0;
         double salario;
 
