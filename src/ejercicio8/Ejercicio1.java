@@ -20,6 +20,7 @@ public class Ejercicio1 {
         Scanner teclado = new Scanner(System.in);
         double num1, num2, resultado;
         String opcion;
+
         System.out.println("Por favor ingre el primer valor decimal: " );
         num1 = teclado.nextDouble();
         System.out.println("Ahora ingrese el segundo valor decimal: ");
@@ -29,7 +30,7 @@ public class Ejercicio1 {
         System.out.println("Ahora seleccione una de estas opciones: ");
         System.out.println("a) Sumar: \n" + "b) Restar: \n" + "c) Multiplicar \n" + "d) Dividir \n");
         System.out.println("");
-        opcion = teclado.next();
+        opcion = teclado.next(); // nextLine aqui no funciona, tuve que buscar y este es el que funciona
 
         // Investigue que .toLowerCase() nos permite que no ocurra error al escribir mayusculas y minusculas
         switch (opcion.toLowerCase()){
