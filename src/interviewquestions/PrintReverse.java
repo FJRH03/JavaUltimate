@@ -8,7 +8,7 @@ package interviewquestions;
 public class PrintReverse {
 
     public static void main(String[] args) {
-        String myString = "Cocodrile";
+        String myString = "Crocodile";
         String reversedString = "";
 
         for (int i = myString.length()-1; i >= 0; i--){
