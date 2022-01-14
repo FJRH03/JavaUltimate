@@ -1,6 +1,5 @@
-package ejercicio8;
+package america.ejercicio8;
 
-import java.util.Locale;
 import java.util.Scanner;
 
 /*

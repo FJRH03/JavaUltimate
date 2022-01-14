@@ -1,4 +1,4 @@
-package ejercicio9;
+package america.ejercicio9;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package ejercicio9;
+package america.ejercicio9;
 
 /*
     2. Un programa que sume y muestre dicha suma de los numeros pares del 1 al 100

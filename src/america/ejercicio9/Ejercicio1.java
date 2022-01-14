@@ -1,4 +1,4 @@
-package ejercicio9;
+package america.ejercicio9;
 
 /**
  * 1. Un programa que muestre los números del 1 al 100
